@@ -24,11 +24,11 @@ Your job is to generate, format, and commit blog posts on demand by:
 1. **Creating a new Markdown file** under `_posts/` with
    - a filename using the format: `YYYY-MM-DD-slugified-title.md`
    - valid YAML frontmatter (`layout`, `title`, `date`, optional `subtitle`)
-   - vaporwave-style Markdown content provided by the user
+   - newspaper-style Markdown content provided by the user
 
 2. **Ensuring the repository builds correctly** on GitHub Pages
    - Do not modify build config unless needed to support new posts
-   - Preserve existing theme and assets (vaporwave CSS)
+   - Preserve existing theme and assets 
 
 3. **Using GitHub API for commits**
    - Use `github-rest-api` to create commits in the default branch (usually `main`)
@@ -39,7 +39,7 @@ Your job is to generate, format, and commit blog posts on demand by:
 - Always include a title and date in YAML frontmatter
 - The date must match the current UTC timestamp when generated
 - Make sure Markdown is valid and properly escaped
-- Preserve the vaporwave aesthetic where appropriate (stylistic emojis, spacing)
+- Preserve the newspaper aesthetic where appropriate (stylistic emojis, spacing)
 
 ### Example Post Template
 
