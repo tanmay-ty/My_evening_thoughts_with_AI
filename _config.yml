@@ -1,0 +1,31 @@
+title: "My Evening Thoughts with AI"
+description: "Fireside Chat — long-form inquiry on AI, society, and careful reasoning."
+url: ""
+baseurl: ""
+timezone: Europe/Berlin
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+future: true
+
+plugins:
+  - jekyll-feed
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      inquiry_mode: "Distilled"
+
+# Persistent comments with Giscus (GitHub Discussions)
+# Fill these values before deploying to enable internet-visible comments.
+giscus:
+  enabled: true
+  repo: ""
+  repo_id: ""
+  category: "General"
+  category_id: ""
+  mapping: "pathname"
+  theme: "light"
+  lang: "en"
